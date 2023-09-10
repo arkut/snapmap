@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+  <link rel='shortlink' href='https://www.frac.org' />
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <link rel='stylesheet' href='https://www.frac.org/wp-content/themes/frac-theme/selectric.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='https://www.frac.org/maps/map-assets/fonts/MyFontsWebfontsKit.css' type='text/css' media='all' />
+  <title>SNAP Participation Map</title>
+  <!-- This site is optimized with the Yoast SEO plugin v4.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.frac.org/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Food Research &amp; Action Center" />
+<meta property="og:url" content="https://www.frac.org/" />
+<meta property="og:site_name" content="Food Research &amp; Action Center" />
+<meta property="og:image" content="https://www.frac.org/wp-content/uploads/2016/09/banner-home.jpg" />
+<meta property="og:image:width" content="1600" />
+<meta property="og:image:height" content="748" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Home - Food Research &amp; Action Center" />
+<meta name="twitter:image" content="https://www.frac.org/wp-content/uploads/2016/09/banner-home.jpg" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.frac.org\/","name":"Food Research &amp; Action Center","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.frac.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Food Research &amp; Action Center &raquo; Feed" href="https://www.frac.org/feed" />
+<link rel="alternate" type="application/rss+xml" title="Food Research &amp; Action Center &raquo; Comments Feed" href="https://www.frac.org/comments/feed" />
+
+        <style type="text/css">
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+#map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+<link rel='stylesheet' id='frac-theme-style-css'  href='https://www.frac.org/wp-content/themes/frac-theme/style.css?ver=ef145fe67bb3c60f2625ad791307dbe6' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://www.frac.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1' type='text/css' media='all' />
+
+    <link rel="stylesheet" type="text/css" href="./css/snap-counties.css"></link>
+
+</head>
+
+<body id="page" class="home page-template-default page page-id-4 one-col front-page wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+
+    <div class="header">
+        <section class="logo-and-utility">
+            <div class="container">
+                <div class="logo">
+                    <a href="https://www.frac.org"><img src="https://www.frac.org/maps/map-assets/images/logo-frac.png" alt="Food Research and Action Center" /></a>
+                </div>                
+                <nav class="utility">
+                    <ul id="menu-utility-navigation" class="menu">
+                        <li id="menu-item-443" class="action menu-item menu-item-type-post_type menu-item-object-page menu-item-443">
+                            <a href="https://www.frac.org/action">Legislative Action Center</a>
+                        </li>
+                        <li id="menu-item-261" class="chat menu-item menu-item-type-custom menu-item-object-custom menu-item-261"><a href="https://www.frac.org/blog">FRAC Chat</a></li>
+                        <li id="menu-item-79" class="mail menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://www.frac.org/subscribe-to-enews">Subscribe to eNews</a></li>
+                        <li id="menu-item-533" class="give menu-item menu-item-type-custom menu-item-object-custom menu-item-533"><a href="https://org2.salsalabs.com/o/5118/p/salsa/donation/common/public/?donate_page_KEY=14483">Give to FRAC</a></li>
+                    </ul>
+                </nav>
+            </div><!--.container-->
+        </section><!--.logo-and-utility-->
+
+        <section class="main-navigation primary">
+            <div class="container">
+                <nav class="main">
+                    <ul>
+                        <li class="parent">
+                            <a href="https://www.frac.org/research">Research &amp; Data</a>
+                        </li>
+                        <li class="parent">
+                            <a href="https://www.frac.org/action">Action</a>
+                        </li>
+                        <li class="parent">
+                            <a href="https://www.frac.org/programs">Programs</a>
+                        </li>
+                        <li class="parent">
+                            <a href="https://www.frac.org/newsroom">Newsroom</a>
+                        </li>
+                        <li class="parent">
+                            <a href="https://www.frac.org/about">About Us</a>
+                        </li>
+                        <li class="parent">
+                            <a href="https://www.frac.org/hunger-poverty-america">Hunger &amp; Poverty</a>
+                        </li>
+                        <li class="parent">
+                            <a href="https://www.frac.org/obesity-health">Obesity &amp; Health</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="bottom">&nbsp;</div>
+            </div><!--.container-->
+        </section><!--.main-navigation-->
+        </div><!--.header-->
+    <main class="main front-page">
+        <div class="breadcrumbs">
+            <span xmlns:v="https://rdf.data-vocabulary.org/#">
+                <span typeof="v:Breadcrumb">
+                    <a href="https://www.frac.org/" rel="v:url" property="v:title">Home</a> > 
+                    <span><a href="https://www.frac.org/research">Research &amp; Data</a></span> &gt; 
+                    <span rel="v:child" typeof="v:Breadcrumb"><a href="https://www.frac.org/research/resource-library" rel="v:url" property="v:title">Resources</a> &gt; 
+                        <span class="breadcrumb_last">SNAP county map</span>
+                    </span>
+                </span>
+            </span>
+        </div>
+        <div class="publications module list">
+            <div class="container">
+                <ul class="listing">                            
+                    <li>
+                        <div class="text">
+                            <h3 class="title">SNAP Matters in Every Community&mdash;Metros, Small Towns, and Rural Communities</h3>
+                        
+                        <div class="resource-meta">
+                            <div class="label interactive-data-tool">Interactive Data Tool</div>
+                            <div id="snapintro" max-width="960"><p>Note: Works best in Chrome and Firefox.</p></div>
+                        
+                            <div class="text">                            
+                                <div id="snapintro" max-width="960">
+                                    <p>This interactive map provides household SNAP participation rates at the county level in each state, based on American Community Survey 5-Year data (2017-2021). Counties are grouped into three categories: Metro, Small Town, and Rural. Use the buttons at the top to select or deselect the different categories. Scroll over a county to view household SNAP participation rates. Click on a county to zoom in, and click on that county again to zoom out to national scope.</p>
+                                    <ul>
+                                        <li>&#9733;Explore the <a href="./tables/snap-county-tab-2021.html">interactive, searchable table</a> of SNAP participation by county.</li>
+                                        <li>&#9733;Click <a href="../snap-state-map/snap-states.html">here for state-level data</a>.</li>
+                                        <li>&#9733;Click <a href="../snap-cd/snap-congress.html">here for a map with Congressional District-level data</a>.</li>
+                                    </ul>
+                                    <p>Note: Works best in Chrome and Firefox.</p>
+                                </div>
+                                <div id="button-holder">
+                                    <div id="option">
+                                        <input class="button" id="metro-county" name="ctyButton" type="button" value="Metro"/>
+                                        <input class="button" id="micro-county" name="ctyButton" type="button" value="Small town"/>
+                                        <input class="button" id="rural-county" name="ctyButton" type="button" value="Rural"/>
+                                    </div>
+                                </div>
+                                <div class="key"></div>
+                                <div>
+                                  <svg class="map" width="960", height="600">
+                                      <div id="tooltip-container" class="tooltip_key">
+                                          <div><span id="county-label"></span></div>
+                                      </div>
+                                  </svg>                                    
+                                  <div id="notes">
+                                            <p>Source: FRAC analysis of 5-year American Community Survey (ACS) data, 2017-2021.</p>
+                                            <p>Map and analytical framework developed in collaboration with Punam Ohri-Vachaspati, PhD, RD, Professor, Arizona State University.</p>
+                                            <p>Notes: "Metro counties" are those contained within Metropolitan Statistical Areas, as delineated by the Office of Management and Budget (OMB); each of which contains at least one Census Bureau-delineated urbanized area of 50,000 or more people. "Small town counties" are those contained within Micropolitan Statistical Areas, as delineated by OMB, each containing at least one Census Bureau-delineated urban cluster of between 10,000 and 50,000 people. "Rural counties" consist of non-metropolitan and non-micropolitan areas. 
+                                            Delaware, New Jersey, Rhode Island, and the District of Columbia have no counties defined as "small town" or "rural". Connecticut has no counties defined as "rural". 
+                                            Margins of error were calculated based on a 90% confidence level.</p>
+                                  </div>
+                                  <div class="copyright">&copy; 2023 Food Research &amp; Action Center.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- .blog-article-list -->
+        </div>
+                    <script src="https://d3js.org/d3.v4.min.js"></script>
+                    <script src="https://d3js.org/topojson.v2.min.js"></script>
+                    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+                    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/1.12.1/d3-annotation.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.0/d3-legend.min.js"></script>
+                    <script src="https://d3js.org/d3-array.v1.min.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                    <script src="./js/snap-counties.js"></script>
+
+    </main>
+
+
+    <footer>
+        <footer class="footer">
+        <div class="container">
+            <section class="contact">
+                <div class="logo">
+                    <a href="https://www.frac.org"><img src="https://www.frac.org/maps/map-assets/images/logo-frac-grey-byline.png" alt="Food Research and Action Center" /></a>
+                </div>
+                <p>1200 18th Street NW, Suite 400<br />
+                   Washington, D.C. 20036<br />
+                    <a href="tel:2029862200">202.986.2200</a><br />
+                    <a href="tel:2029862525">202.986.2525</a>
+                </p>
+                <ul class="links">
+                   <li class="mail"><a href="mailto:cbsutton@frac.org">Contact Us</a></li>
+                   <li class="location"><a href="https://goo.gl/maps/ijDJykUnxt12" target="_blank">Locate Us</a></li>
+                </ul>
+                <div class="careers"><a href="https://www.frac.org/about/jobs-and-internships" class="button">Careers at FRAC</a></div>         
+            </section>
+            <section class="navigation">
+                <div class="menu-footer-navigation-container">
+                    <ul id="menu-footer-navigation" class="menu">
+                        <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26">
+                            <a href="https://www.frac.org/research">Research &#038; Data</a>
+                        </li>
+                        <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://www.frac.org/action">Action</a></li>
+                        <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://www.frac.org/programs">Federal Nutrition Programs</a></li>
+                        <li id="menu-item-269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-269"><a href="https://www.frac.org/newsroom">Newsroom</a></li>
+                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://www.frac.org/about">About Us</a></li>
+                        <li id="menu-item-262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href="https://www.frac.org/blog">FRAC Chat (Blog)</a></li>
+                        <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://www.frac.org/hunger-poverty-america">Hunger &#038; Poverty in America</a></li>
+                        <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://www.frac.org/obesity-health">Obesity &#038; Health</a></li>
+                    </ul>
+                </div>        
+            </section>
+            <section class="social">
+                <ul class="icons">
+                    <li><a class="twitter" href="https://twitter.com/#!/fractweets" target="_blank">Twitter</a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/foodresearchandactioncenter" target="_blank">Facebook</a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/company/675492" target="_blank">LinkedIn</a></li>
+                    <li><a class="instagram" href="https://instagram.com/fracgram/" target="_blank">Instagram</a></li>
+                </ul>
+                <ul class="links">
+                    <li><a href="https://www.frac.org.php56-17.dfw3-1.websitetestlink.com/subscribe-to-enews">Subscribe to our eNews</a></li>
+                    <li><a href="https://www.frac.org/feed/?post_type=resource">Stay up-to-date on research and resources</a></li>
+                    <li><a href="https://www.frac.org/feed/?post_type=blog">Subscribe to FRAC Chat</a></li>
+                </ul>
+            </section>
+            <section class="info">
+                <h4>Our Initiatives</h4>
+                <ul class="links">
+                    <li><a href="https://www.dchunger.org/" target="_blank">D.C. Hunger Solutions</a></li>
+                    <li><a href="https://www.mdhungersolutions.org/" target="_blank">Maryland Hunger Solutions</a></li>
+                </ul>
+            </section>
+        </div><!--.container-->
+        <div class="container">
+            <div class="copyright">&copy; 2023 Food Research &amp; Action Center.</div>
+        </div><!--.container-->
+    </footer>
+
+</body>
+</html>

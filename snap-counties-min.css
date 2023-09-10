@@ -1,0 +1,202 @@
+.background {
+  fill: #fff;
+  pointer-events: all;
+}
+
+.map {
+  width: 80%;
+  height: auto;
+  border: 1px solid silver;
+}
+.mesh {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.legend {
+        stroke-width: 1px;
+      }
+.legend rect {
+  fill:white;
+  stroke:black;
+  stroke-width: 1px;
+}
+rect {
+      stroke-width: 2;
+    }
+
+
+.button {
+  background-color: transparent;
+  border: 0;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 1.5rem;
+  width: 20%; /* Large, mobile-friendly touch target */
+
+  /* Media Queries */
+  @media (min-width: 37.5em) {
+    width: auto; /* Smaller buttons on larger screens */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+
+#metro-county {
+  height: auto;
+  padding: 5px;
+  background-color: #ccc;
+  margin-left: 1em;
+  margin-bottom: 10px;
+  -moz-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#micro-county {
+  height: auto;
+  padding: 5px;
+  background-color: #ccc;
+  margin-left: 1em;
+  margin-bottom: 10px;
+  -moz-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#rural-county {
+  height: auto;
+  padding: 5px;
+  background-color: #ccc;
+  margin-left: 1em;
+  margin-bottom: 10px;
+  -moz-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#caption {
+  display: none;
+}
+
+#tooltip-container {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: 1px solid;
+  display: none;
+}
+
+.tooltip_key {
+  font-weight: bold;
+}
+
+.tooltip_value {
+  margin-left: 20px;
+  float: right;
+}
+
+.tooltip_value2 {
+  margin-left: 20px;
+  float: right;
+}
+
+.county-label {
+  color: #000;
+  font-size: 14px;
+}
+
+#snapintro {
+  max-width: 960px;
+}
+
+#snapintro h2 {
+  font-size: 16px !important;
+}
+
+#snapintro p {
+  font-size: 14px !important;
+}
+
+#snaptable {
+  border-bottom: none !important;
+}
+
+.counties {
+  fill: none;
+  stroke: #aaa;
+    stroke-width: 0.2px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.counties :hover {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-linejoin: round;  
+  stroke-linecap: round;
+}
+
+.states {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+  stroke-linejoin: round;  
+  stroke-linecap: round;
+}
+
+.nation {
+  fill: none;
+  stroke-width: 1px;
+  stroke: #000;
+  stroke-linejoin: round;  
+  stroke-linecap: round;
+}
+
+#notes {
+  max-width: 960px;
+}
+
+#notes p {
+  font-size: 12px !important;
+}
+
+.textbox {
+  border:3px;
+  border-style:solid;
+  border-color:#7297a9;
+  padding: 1em;
+}
